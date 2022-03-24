@@ -1,0 +1,573 @@
+.intro {
+  height: 3260px;
+  /* top: -40px; */
+}
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap";
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body
+{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* flex-wrap: wrap; */
+    /* background: #161623;
+    min-height: 100vh; */
+}
+/* section
+{
+  position: relative;
+}
+section::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+/* .logotip
+{
+  padding: 15px;
+} */
+.logo .logo_link img
+
+  {
+   /* position: relative; */
+   position: absolute;
+   top:-5px;
+   left: 15%;
+   /* width: 100%; */
+  }
+
+{
+  opacity: 15%;
+  left: 50%;
+}
+.container
+{
+
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin: 40px 0; */
+}
+.container .card
+{
+  position: relative;
+  width: 290px;
+  height: 380px;
+  background: rgba(255, 255, 255, 0.05);
+  margin: 60px;
+  box-shadow: 15p 15px 35px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+.container .card .content
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.container .card:hover .content
+{
+  opacity: 1;
+  transform: translateY(-30px);
+}
+.container .card .content .imgBx
+{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgba(0,0,0,0.2) ;
+}
+.container .card .content .imgBx img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container .card .content .contentBx h3
+{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
+}
+.container .card .content .contentBx h3 span
+{
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: initial;
+
+}
+.container .card .sci
+{
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+
+}
+.container .card .sci li
+{
+
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: inherit;
+  text-align: center;
+  color: white;
+  list-style: none;
+  font-size: 20px;
+  margin: 0 10px;
+  transform: translateY(40px);
+  transition: 0.5s;
+  transition-delay: calc(0.1s*var(--i));
+  opacity: 0;
+}
+.container .card:hover .sci li
+{
+  transform: translateY(23px);
+  opacity: 1;
+}
+ /* wapka rabov */
+ *
+ {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:  "Poppins", sans-serif;
+ }
+
+
+header
+{
+ opacity: 90%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ justify-content: space-between;
+ align-items: center;
+ padding: 15px 100px;
+ z-index: 10;
+
+}
+
+header .logo
+{
+ position: relative;
+ font-size: 1.5em;
+ color: #fff;
+ text-decoration: none;
+ font-weight: 600;
+}
+
+header .navigation
+{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin: 10px 0;
+}
+
+header .navigation li
+{
+ list-style: none;
+ margin: 0 15px;
+}
+
+header .navigation li a
+{
+ color: #fff;
+ font-size: 30px;
+ text-decoration: none;
+ font-weight: 600;
+ letter-spacing: 2px;
+}
+
+header .navigation li a:hover
+{
+ color: #ffeb3b;
+}
+
+#search
+{
+ text-align: right;
+}
+
+header .search
+{
+ position: relative;
+ width: 300px;
+ height: 40px;
+}
+
+header .search input
+{
+ position: absolute;
+ top: -40px;
+ left: 1350px;
+ width: 100%;
+ height: 100%;
+ color: #fff;
+ background: transparent;
+ outline: none;
+ border: 1px solid #fff;
+ border-radius: 4px;
+ padding: 0 10px 0 25px;
+}
+
+header .search input::placeholder
+{
+ color: #fff;
+}
+
+#logotip{
+ font-family: 'Noto Sans JP', sans-serif;
+}
+.modcontainer
+{
+  top: 150px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin: 40px 0; */
+}
+.modcontainer .card
+{
+  position: relative;
+  width: 290px;
+  height: 380px;
+  background: rgba(255, 255, 255, 0.05);
+  margin: 60px;
+  box-shadow: 15p 15px 35px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+.modcontainer .card .content
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.modcontainer .card:hover .content
+{
+  opacity: 1;
+  transform: translateY(-30px);
+}
+.modcontainer .card .content .imgBx
+{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgba(0,0,0,0.2) ;
+}
+.modcontainer .card .content .imgBx img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.modcontainer .card .content .contentBx h3
+{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
+}
+.modcontainer .card .content .contentBx h3 span
+{
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: initial;
+
+}
+.modcontainer .card .sci
+{
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+
+}
+.modcontainer .card .sci li
+{
+
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: inherit;
+  text-align: center;
+  color: white;
+  list-style: none;
+  font-size: 20px;
+  margin: 0 10px;
+  transform: translateY(40px);
+  transition: 0.5s;
+  transition-delay: calc(0.1s*var(--i));
+  opacity: 0;
+}
+.modcontainer .card:hover .sci li
+{
+  transform: translateY(23px);
+  opacity: 1;
+}
+
+
+.wrapper-alphatext {
+
+    max-width: 800px;
+    top: 150px;
+    align-items: center;
+    margin: 0 auto;
+}
+.wrapper-headmodtext {
+    left: 25px;
+    max-width: 850px;
+    top: 650px;
+    align-items: center;
+    margin: 0 auto;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+
+
+.alphatext h2
+{
+  position: relative;
+  font-size: 6vw;
+  color: #01fe87;
+  opacity: 70%;
+  left: 1px;
+  /* -webkit-text-stroke: 0.3vw #383d52; */
+  text-transform: uppercase;
+}
+.alphatext h2::before
+{
+  content: attr(data-text);
+  position: absolute;
+  opacity: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #00e041;
+  -webkit-text-stroke: 0.17vw #000;
+
+  border-right: 2px solid #01fe87;
+  overflow: hidden;
+  animation: alphatextanimate 9s linear infinite;
+
+}
+@keyframes alphatextanimate
+{
+
+  0%,10%,100%
+  {
+    width: 0;
+  }
+  70%,90%
+  {
+    width: 100%;
+
+  }
+}
+
+
+.headmodtext h2
+{
+  position: relative;
+  font-size: 6vw;
+  color: #01fe87;
+  opacity: 70%;
+  /* -webkit-text-stroke: 0.3vw #383d52; */
+  text-transform: uppercase;
+}
+.headmodtext h2::before
+{
+  content: attr(data-text);
+  position: absolute;
+  opacity: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #00e041;
+  -webkit-text-stroke: 0.17vw #000;
+
+  border-right: 2px solid #01fe87;
+  overflow: hidden;
+  animation: headmodtextanimate 9s linear infinite;
+
+}
+@keyframes headmodtextanimate
+{
+
+  0%,10%,100%
+  {
+    width: 0;
+  }
+  70%,90%
+  {
+    width: 100%;
+
+  }
+}
+
+/* css микромодеров */
+.zxccontainer
+{
+  top: 150px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin: 40px 0; */
+}
+.zxccontainer .card
+{
+  position: relative;
+  width: 200px;
+  height: 265px;
+  background: rgba(255, 255, 255, 0.05);
+  margin: 40px;
+  box-shadow: 15p 15px 35px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+.zxccontainer .card .content
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.zxccontainer .card:hover .content
+{
+  opacity: 1;
+  transform: translateY(-17px);
+}
+.zxccontainer .card .content .imgBx
+{
+  position: relative;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgba(0,0,0,0.2) ;
+}
+.zxccontainer .card .content .imgBx img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.zxccontainer .card .content .contentBx h3
+{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
+}
+.zxccontainer .card .content .contentBx h3 span
+{
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: initial;
+
+}
+.zxccontainer .card .sci
+{
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+
+}
+.zxccontainer .card .sci li
+{
+
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: inherit;
+  text-align: center;
+  color: white;
+  list-style: none;
+  font-size: 20px;
+  margin: 0 10px;
+  transform: translateY(20px);
+  transition: 0.5s;
+  transition-delay: calc(0.1s*var(--i));
+  opacity: 0;
+}
+.zxccontainer .card:hover .sci li
+{
+  transform: translateY(40px);
+  opacity: 1;
+}
+
+
+/* KUBIK) */

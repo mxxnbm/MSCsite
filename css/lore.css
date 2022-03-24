@@ -1,0 +1,281 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo .logo_link img
+
+  {
+   /* position: relative; */
+   position: absolute;
+   top:-5px;
+   left: 15%;
+   /* width: 100%; */
+  }
+
+
+header
+{
+ opacity: 90%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ justify-content: space-between;
+ align-items: center;
+ padding: 15px 100px;
+ z-index: 10;
+
+}
+
+header .logo
+{
+ position: relative;
+ font-size: 1.5em;
+ color: #fff;
+ text-decoration: none;
+ font-weight: 600;
+}
+
+header .navigation
+{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin: 10px 0;
+}
+
+header .navigation li
+{
+ list-style: none;
+ margin: 0 15px;
+}
+
+header .navigation li a
+{
+ color: #fff;
+ font-size: 30px;
+ text-decoration: none;
+ font-weight: 600;
+ letter-spacing: 2px;
+}
+
+header .navigation li a:hover
+{
+ color: #ffeb3b;
+}
+/* body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #161623;
+} */
+body{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+/*
+body::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(coral, darkviolet);
+  clip-path: circle(30% at right 70%);
+}
+body::after
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(lightseagreen, rebeccapurple);
+  clip-path: circle(20% at 10% 10%);
+} */
+.cardtxtcontainer
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10%;
+  /* max-width: 1200px; */
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.cardtxtcontainer .card
+{
+  position: relative;
+  width: 280px;
+  height: 400px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+.cardtxtcontainer .card .content
+{
+  padding: 20px;
+  text-align: center;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.5s;
+
+}
+
+.cardtxtcontainer .card:hover .content
+{
+  transform: translateY(0px);
+  opacity: 1;
+
+}
+.cardtxtcontainer .card .content h2
+{
+  position: absolute;
+  top: -80px;
+  right: 30px;
+  font-size: 8em;
+  color: rgba(255, 255, 255, 0.05);
+  pointer-events: none;
+}
+.cardtxtcontainer .card .content h3
+{
+  font-size: 1.8em;
+  color: #fff;
+  z-index: 1;
+}
+.cardtxtcontainer .card .content h4
+{
+font-size: 1.4em;
+color: #fff;
+z-index: 1;
+}
+.cardtxtcontainer .card .content p
+{
+  font-size: 1em;
+  color: #fff;
+  font-weight: 300;
+}
+.cardtxtcontainer .card .content a
+{
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+.intro {
+  height: 1680px;
+  /* top: -20px; */
+}
+
+
+/* Спойлеры */
+
+.accordion
+{
+  left: 29%;
+  min-height: 100vh;
+  max-width: 800px;
+  top: 200px;
+}
+.accordion .contentBx
+{
+  position: relative;
+  margin: 10px 20px;
+  color: white;
+}
+.accordion .contentBx .label
+{
+  position: relative;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  font-weight: bold;
+  border-top: 2px solid rgba(255, 255, 255, 0.4);
+  border-left: 2px solid rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+
+
+}
+.accordion .contentBx .label::before
+{
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  color: white;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+.accordion .contentBx .content
+{
+  text-align: center;
+  position: relative;
+  text-align: center;
+  font-size: 1.1em;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  /* border-radius: 15px; */
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+.accordion .contentBx.active .content
+{
+  height: 260px;
+  padding: 10px;
+  color: white;
+  font-size: 1.1em;
+  margin: 1rem auto;
+  max-width: 50rem;
+  text-align: center;
+
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+
+}
+}
+.accordion .contentBx.active .content p
+{
+  color: white;
+}

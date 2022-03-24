@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lore</title>
+    <link rel="stylesheet" href="./css/lore.css">
+  </head>
+  <body>
+    <header>
+    <div class="logo" id="logo">
+<a href="#" class="logo_link"> <img src="./img/logo.png" alt=""></a></div>
+<ul class="navigation">
+
+  <li><a href="#">Lore</a></li>
+  <li><a href="#">Team</a></li>
+  <li><a href="#">$$$</a></li>
+  <li><a href="#">Social</a></li>
+  <li><a href="#">Sneeks</a></li>
+</ul>
+</header>
+    <div class="intro" id="intro">
+
+    <div class="cardtxtcontainer">
+      <div class="card">
+        <div class="content">
+          <h2>01</h2>
+          <h3>Formation and Assembly</h3>
+          <p> The Mutant Shiba Club community is forming. Embracing the strength of both individuality and inclusivity. Celebrating individual differences, discovering commonalities, and coming together in unity. The Pack assembles.
+          </p>
+          <img src="./img/01.gif">
+          <!-- <img src="xxx.jpg" alt=""> -->
+        </div>
+
+      </div>
+
+        <div class="card">
+          <div class="content">
+            <h2>02</h2>
+            <h4>Holder Exclusive Perks and Benefits</h4>
+            <p> The Pack has assembled and continues to get stronger. Being a member of the Mutant Shiba Club is highly coveted. Benefits of pack membership transcend into both virtual and real-life collaborations, merchandise, social events, commercial rights, and more.
+            </p>
+            <img src="./img/02.gif">
+            <!-- <a href="#"> Read More </a> -->
+          </div>
+
+        </div>
+          <div class="card">
+            <div class="content">
+              <h2>03</h2>
+              <h3>The Future</h3>
+              <p> The Mutant Shiba's final form has yet to be revealed. The Zenith Serum has been reconstructed and will be distributed to those who desire. The only thing that is certain is no one knows what will happen next.
+              </p>
+              <img src="./img/03.gif">
+              <!-- <a href="#"> Read More </a> -->
+            </div>
+
+          </div>
+
+
+          </section>
+
+          <!-- <canvas class="b-canvas" width="781" height="170" style="width: 781px; height: 170px;">Mutant Shiba Club</canvas> -->
+
+        </div>
+        <div class="accordion">
+        <div class="contentBx">
+          <div class="label">THE TRANSMOGRIFICATION</div>
+          <div class="content">
+            <p>Thousands of years ago, the Balavrak pack, members of a secret society comprised of direct descendants of the Genesis Shiba, were summoned. At the time, the Shiba’s very existence was being threatened. The Gode Collective, a known exterminator clan, had assembled in orbit high above the planet. The Gode was set on destroying the Shiba and commandeering their world for a rogue outpost.
+</br>
+The Balavrak constituted some of the greatest minds of the Shiba. They knew that defeating the Gode Collective would require something extraordinary. The Balavrak came together with a common goal: to create the Zenith Serum. This serum would alter the Shiba at a genetic level and provide them with such physical and intellectual prowess that they would be able to defeat the Gode Collective.
+</br>
+War was imminent. Destruction was inevitable. Death was extensive.</p>
+          </div>
+          </div>
+          <div class="contentBx">
+            <div class="label">THE QUEST</div>
+            <div class="content">
+              <p>The Shiba defeated the Gode Collective, but victory came at a price. While successful in its genetic alteration, the Zenith Serum had a side eﬀect. It created signiﬁcant physical alterations in the Shiba and resulted in a new lineage that came to be known as the Mutant Shibas.
+
+Initially, the Mutant Shibas were celebrated and revered. But over time, they were shunned by society due to their altered appearance. Some mutants celebrated their diﬀerences, but others were set on reverting to pre-serum conditions. Conﬂict ensued. The Balavrak had already witnessed the power the Zenith Serum bestowed, now they were watching the conflict it could wreak within the Shiba family. The Balavrak realized that often perfection lies within imperfection. Fearing for the future of all Shibas, they took action.
+
+A key component in the creation of Zenith Serum was the Astatine Crystal. In a secret ceremony, the Balavrak shattered the crystal into seven fragments. These fragments were then hidden in treacherous locations across the planet, an attempt to dissuade anyone ever reuniting the seven fragments again, an eﬀort to banish the Zenith Serum forever.
+
+For generations, attempts were made to ﬁnd these seven crystal fragments. Many died in their attempts, but few were successful. Six of the crystal fragments were found, and a rumor spread across the planet that the seventh and ﬁnal crystal fragment had been located.
+
+Anticipation spread. Fear grew.</p>
+            </div>
+            </div>
+            <div class="contentBx">
+              <div class="label">THE ASCENDANCY</div>
+              <div class="content">
+                <p>The Astatine Crystal calls. It is whole once again. Mutant Shibas are gathering for The Ascendancy. Many hope to achieve their highest version of being, while others hope to return to what they were before. The future is here.
+
+Are you prepared?
+
+</p>
+              </div>
+              </div>
+
+        </div>
+</div>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card")
+        ,{
+      		max: 25,
+      		speed: 400,
+          glare: true,
+          "max-glare": 0.5,
+      	 });
+    </script>
+    <script src="./js/three.min.js"></script>
+    <script src="./js/vanta.fog.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/blotter.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/channelSplitMaterial.min.js'></script>
+    <!-- <script  src="./blotter.js"></script> -->
+    <script>
+    const accordion = document.getElementsByClassName
+    ("contentBx");
+
+    for (i = 0; i<accordion.length; i++){
+      accordion[i].addEventListener("click", function(){
+        this.classList.toggle("active")
+      })
+    }
+  </script>
+  </body>
+</html>
